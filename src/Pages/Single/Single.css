@@ -1,0 +1,85 @@
+.single-course {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .single-course h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  .title{
+    text-decoration: underline;
+  }
+  .sub-title{
+    padding-top: 20px;
+  }
+  
+  .course-logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100px;
+  }
+  
+  .qa-section {
+    margin-top: 20px;
+  }
+  
+  .qa-item {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .qa-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .answer {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .single-course {
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+      padding-top: 100px;
+    }
+  
+    .question {
+      font-size: 16px;
+    }
+  
+    .answer {
+      font-size: 14px;
+    }
+  }
+  
